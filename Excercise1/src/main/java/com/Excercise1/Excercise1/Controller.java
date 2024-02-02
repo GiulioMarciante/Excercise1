@@ -12,4 +12,5 @@ public class Controller {
     public String request2(@RequestParam String nome, @RequestParam String provincia){
         return "Ciao "+ nome + " com'è il tempo in " + provincia;
     }
+
 }
